@@ -20,7 +20,7 @@ y2 = np.ones((N,1))
 X = np.concatenate((x1.T, x2.T)).astype('float32')
 y = np.concatenate((y1, y2)).astype('float32')
 
-
+# 数据归一化（模型不收敛）
 for i in range(2):
     X[:,i] = (X[:,i]-np.min(X[:,i]))/(np.max(X[:,i])-np.min(X[:,i]))
 

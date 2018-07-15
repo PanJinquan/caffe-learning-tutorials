@@ -19,7 +19,7 @@ def write_img_list(data, filename):
 image_size = 28
 s='ABCDEFGHIJ'
 
-filedir='/home/hbk/caffe/data/notMNIST/notMNIST_small/'
+filedir='E:/gitPro/notMNIST_small'
 
 
 # 1. read file

@@ -32,5 +32,11 @@ solver = caffe.SGDSolver('dm_solver.prototxt')
 #solver.step(1)
 #solver.solve()
 
-print solver.net.blobs['data'].data.shape
-print solver.net.blobs['label'].data.shape
+print 'data=',solver.net.blobs['data'].data.shape
+print 'label=',solver.net.blobs['label'].data.shape
+print 'ip1 data=',solver.net.blobs['ip1'].data.shape
+print 'ip1 diff=',solver.net.blobs['ip1'].diff.shape
+print 'ip1 diff=',solver.net.blobs['ip1'][0].diff.shape#.blobs['ip1'][0]表示权值，.blobs['ip1'][1]表示偏置
+
+
+

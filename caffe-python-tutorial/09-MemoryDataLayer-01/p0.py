@@ -38,7 +38,10 @@ y_train = y[idx].reshape(y.shape[0],1,1,1)
 
 X_train = np.require(X_train,requirements='C')
 
+# 给训练网络输入数据：
+print('y_train=',y_train)
 solver.net.set_input_arrays(X_train, y_train)
+# 给测试网络输入数据（为了简单，训练和测试的数据一样）
 solver.test_nets[0].set_input_arrays(X_train, y_train)
 
 for i in range(1001):

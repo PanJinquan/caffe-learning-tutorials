@@ -37,6 +37,7 @@ def write_lmdb(filename, X,y):
             # The encode is only essential in Python 3
             txn.put(str_id.encode('ascii'), datum.SerializeToString())
             """
+            # 上面是caffe之前的方式，也可以直接用下面的方式直接转换
             datum = caffe.io.array_to_datum(X[i,:,:,:])
             datum.label = int(y[i])
             txn.put('{:0>10d}'.format(i), datum.SerializeToString())
