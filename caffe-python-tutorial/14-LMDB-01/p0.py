@@ -14,7 +14,8 @@ imgdata_mean = 20
 
 def net(dbfile, batch_size, mean_value=0):
     n = caffe.NetSpec()
-    n.data, n.label=L.Data(source=dbfile, backend = P.Data.LMDB, batch_size=batch_size, ntop=2, transform_param=dict(scale=1.0/30.0, mean_value=mean_value))
+    n.data, n.label=L.Data(source=dbfile, backend = P.Data.LMDB, batch_size=batch_size, ntop=2,
+                           transform_param=dict(scale=1.0/255.0, mean_value=mean_value))
     n.ip1 = L.InnerProduct(n.data, num_output=50, weight_filler=dict(type='xavier'))
     n.relu1 = L.ReLU(n.ip1, in_place=True)
     n.ip2 = L.InnerProduct(n.relu1, num_output=4, weight_filler=dict(type='xavier'))

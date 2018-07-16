@@ -62,6 +62,7 @@ def read_lmdb(filename):
         #x = flat_x.reshape(datum.channels, datum.height, datum.width)
         x = caffe.io.datum_to_array(datum)
         y = datum.label
+        # 这里只返回最后一个数的数据的标签
         return x,y
 
 
