@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76b95efc-607a-4270-b473-d8ef0536b873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/hbk_mnist.prototxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/hbk_mnist_solver.prototxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/VOC2012.ipynb" afterPath="$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/VOC2012.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe的Layer，Net，Solver概念--mnist例子/hbk_mnist_solver_py.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/hbk_mnist_solver_py.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe的Layer，Net，Solver概念--mnist例子/p0.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/p0.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用/dm_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/dm_solver.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用/gen_data_00.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/gen_data_00.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用/notMNIST_small.tar.gz" afterPath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/notMNIST_small.tar.gz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用/p0.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/p0.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02-作业讲解/auto_solver00_right.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/auto_solver00.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02-作业讲解/p0_loss.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/p0_loss.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01-正弦数据产生及作业/hbk_mnist.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/hbk_mnist.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01-正弦数据产生及作业/hbk_mnist_solver.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/hbk_mnist_solver.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01-正弦数据产生及作业/output.png" afterPath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/output.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01-正弦数据产生及作业/p0.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/p0.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02-作业解答/p1.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01-单label数据/auto_solver00.prototxt" afterPath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/auto_solver00.prototxt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01-单label数据/gen_lmdb_data.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/gen_lmdb_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01-单label数据/p0.py" afterPath="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/p0.py" />
-    </list>
+    <list default="true" id="76b95efc-607a-4270-b473-d8ef0536b873" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,30 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0.coverage" NAME="p0 Coverage Results" MODIFIED="1531570914874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/06-ImageDataLayer-01-模型收敛作业" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__2_.coverage" NAME="p0 (2) Coverage Results" MODIFIED="1531574467495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__1_.coverage" NAME="p0 (1) Coverage Results" MODIFIED="1531574337087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01-正弦数据产生及作业" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0_loss__1_.coverage" NAME="p0_loss (1) Coverage Results" MODIFIED="1531571968231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__4_.coverage" NAME="p0 (4) Coverage Results" MODIFIED="1531571527329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p1.coverage" NAME="p1 Coverage Results" MODIFIED="1531575231208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02-作业解答" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__3_.coverage" NAME="p0 (3) Coverage Results" MODIFIED="1531564399136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_lmdb_data__3_.coverage" NAME="gen_lmdb_data (3) Coverage Results" MODIFIED="1531628984325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_lmdb_data__2_.coverage" NAME="gen_lmdb_data (2) Coverage Results" MODIFIED="1531628458903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-多label数据" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$prototxt.coverage" NAME="prototxt Coverage Results" MODIFIED="1531562189777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver" />
     <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0_loss.coverage" NAME="p0_loss Coverage Results" MODIFIED="1531571863284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02-作业讲解" />
     <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_lmdb_data.coverage" NAME="gen_lmdb_data Coverage Results" MODIFIED="1531625827043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01-单label数据" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$prototxt.coverage" NAME="prototxt Coverage Results" MODIFIED="1531562189777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_data_00.coverage" NAME="gen_data_00 Coverage Results" MODIFIED="1531569934168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist" />
-    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_lmdb_data__1_.coverage" NAME="gen_lmdb_data (1) Coverage Results" MODIFIED="1531626719841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_lmdb_data__1_.coverage" NAME="gen_lmdb_data (1) Coverage Results" MODIFIED="1531628087810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__3_.coverage" NAME="p0 (3) Coverage Results" MODIFIED="1531564399136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p1.coverage" NAME="p1 Coverage Results" MODIFIED="1531575231208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02-作业解答" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__4_.coverage" NAME="p0 (4) Coverage Results" MODIFIED="1531571527329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__1_.coverage" NAME="p0 (1) Coverage Results" MODIFIED="1531629361077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0_loss__1_.coverage" NAME="p0_loss (1) Coverage Results" MODIFIED="1531571968231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02" />
     <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p1__1_.coverage" NAME="p1 (1) Coverage Results" MODIFIED="1531575257351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0__2_.coverage" NAME="p0 (2) Coverage Results" MODIFIED="1531574467495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$gen_data_00.coverage" NAME="gen_data_00 Coverage Results" MODIFIED="1531569934168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist" />
+    <SUITE FILE_PATH="coverage/caffe_learning_tutorials$p0.coverage" NAME="p0 Coverage Results" MODIFIED="1531629077276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gen_lmdb_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/gen_lmdb_data.py">
+      <file leaf-file-name="p0.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel/p0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#234#252#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -91,23 +70,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-7" />
     <option name="width" value="1346" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -128,7 +100,7 @@
               <item name="caffe-learning-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="caffe-learning-tutorials" type="462c0819:PsiDirectoryNode" />
               <item name="caffe-python-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="14-LMDB-01" type="462c0819:PsiDirectoryNode" />
+              <item name="15-LMDB-02-multilabel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,6 +133,7 @@
   </component>
   <component name="RunManager" selected="Python.gen_lmdb_data (1)">
     <configuration name="gen_lmdb_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="caffe-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -171,14 +144,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="caffe-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/gen_lmdb_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="gen_lmdb_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="caffe-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -189,14 +163,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="caffe-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01-单label数据/gen_lmdb_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="p0 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="caffe-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -207,14 +182,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="caffe-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/p0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="p1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="caffe-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -225,14 +201,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="caffe-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="p1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="caffe-learning-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -243,32 +220,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="caffe-learning-tutorials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02-作业解答/p1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.p0 (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.p1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.p1 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gen_lmdb_data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.gen_lmdb_data (1)" />
+    <list>
+      <item itemvalue="Python.p0 (2)" />
+      <item itemvalue="Python.p1" />
+      <item itemvalue="Python.p1 (1)" />
+      <item itemvalue="Python.gen_lmdb_data" />
+      <item itemvalue="Python.gen_lmdb_data (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gen_lmdb_data (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gen_lmdb_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.p1 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.p1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.p0 (2)" />
+      <list>
+        <item itemvalue="Python.gen_lmdb_data (1)" />
+        <item itemvalue="Python.gen_lmdb_data" />
+        <item itemvalue="Python.p1 (1)" />
+        <item itemvalue="Python.p1" />
+        <item itemvalue="Python.p0 (2)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -281,27 +258,42 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="-7" width="1680" height="994" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30380672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30126184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1845238" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42015857" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30380672" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329653" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30126184" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,144 +323,193 @@
       </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py">
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/11-HDF5DataLayer-01-正弦数据/p0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="55" column="6" selection-start-line="55" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/auto_train00.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/p0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/VOC2012.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/gen_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/gen_lmdb_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="6" />
+          <folding>
+            <element signature="e#234#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/p0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel/gen_lmdb_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel/auto_test00.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel/auto_train00.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/auto_train00.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/15-LMDB-02-multilabel/p0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/__builtin__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="772" column="11" lean-forward="false" selection-start-line="772" selection-start-column="11" selection-end-line="772" selection-end-column="11" />
-          <folding />
+          <caret line="772" column="11" selection-start-line="772" selection-start-column="11" selection-end-line="772" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Caffe/caffe_cpu/python/caffe/net_spec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Caffe/caffe_cpu/python/caffe/net_spec.py" />
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/hbk_mnist_solver_py.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/auto_train00.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer和notMnist数据使用/p0.py" />
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/train.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="21" />
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/auto_test00.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/prototxt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/dm_py.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/dm_solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/gen_data_00.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="8" />
+          <caret line="25" column="8" selection-start-line="25" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/06-ImageDataLayer-01-模型收敛作业/auto_solver00.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe的Layer，Net，Solver概念--mnist例子/p0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/05-DummyData Layer notMnist/p0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/06-ImageDataLayer-01-模型收敛作业/p0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/auto_solver00.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/auto_test00.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/auto_train00.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/04-Caffe Layer Net Solver/p0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
           <folding>
             <element signature="e#256#268#0" expanded="true" />
           </folding>
@@ -478,100 +519,67 @@
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/07-ImageDataLayer-02/p0_loss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
-          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+          <caret line="30" column="6" selection-start-line="30" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/08-ImageDataLayer-03-进阶使用/auto_solver00_step.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/08-ImageDataLayer-03-进阶使用/p3_py_accu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="37" />
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/caffe/Lib/site-packages/matplotlib/backends/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda3/envs/caffe/Lib/site-packages/matplotlib/backends/__init__.py" />
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/input.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/hbk_mnist_solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/hbk_mnist.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/09-MemoryDataLayer-01/p0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="6" />
-          <folding />
+          <caret line="42" column="6" selection-start-line="42" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/hbk_mnist.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/output.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/11-HDF5DataLayer-01-正弦数据/p0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="30" />
-          <folding />
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/10-MemoryDataLayer-02/p1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="6" />
-          <folding />
+          <caret line="55" column="6" selection-start-line="55" selection-end-line="55" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/auto_train00.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="32" />
-          <folding />
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/p0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-114" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/VOC2012.ipynb">
@@ -583,18 +591,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/p0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-399" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/12-HDF5DataLayer-02/gen_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-388" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caffe-python-tutorial/14-LMDB-01/gen_lmdb_data.py">
