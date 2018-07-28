@@ -1,0 +1,36 @@
+name: "convolution"
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 100
+input_dim: 100
+layer {
+  name: "conv"
+  type: "Convolution"
+  bottom: "data"
+  top: "conv"
+  convolution_param {
+    num_output: 3
+    kernel_size: 5
+    stride: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: 'MyPythonLayer'
+  type: 'Python' #指定该层为Python自定义的层
+  top: 'output'
+  bottom: 'conv'
+  python_param { # 设置Python的参数
+    module: 'MyLayer'    # 对应Python的文件名
+    layer: 'MyLayer'             # 对应Python文件class类名,且该类必须继承caffe.Layer
+    param_str: "'num': 21"
+  }
+}

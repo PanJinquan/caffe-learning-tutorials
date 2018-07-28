@@ -1,0 +1,16 @@
+train_net: "conv_pool_py.prototxt"
+test_net: "conv_pool_py.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.0010000000475
+display: 500
+max_iter: 20000
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+stepsize: 1000
+snapshot: 10000
+snapshot_prefix: "shapshot"
+solver_mode: GPU
+type: "SGD"

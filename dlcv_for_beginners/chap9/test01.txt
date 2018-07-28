@@ -1,0 +1,4 @@
+samples/57379_0.19_0.16.jpg
+samples/38796_0.16_0.43.jpg
+samples/26404_0.57_0.83.jpg
+samples/35842_0.13_0.36.jpg

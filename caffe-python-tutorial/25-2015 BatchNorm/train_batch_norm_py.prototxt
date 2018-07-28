@@ -1,0 +1,94 @@
+layer {
+  name: "data"
+  type: "DummyData"
+  top: "data"
+  dummy_data_param {
+    data_filler {
+      type: "gaussian"
+    }
+    num: 64
+    channels: 1
+    height: 28
+    width: 28
+  }
+}
+layer {
+  name: "label"
+  type: "DummyData"
+  top: "label"
+  dummy_data_param {
+    data_filler {
+      type: "gaussian"
+    }
+    num: 64
+    channels: 1
+    height: 1
+    width: 1
+  }
+}
+layer {
+  name: "conv1"
+  type: "Convolution"
+  bottom: "data"
+  top: "conv1"
+  convolution_param {
+    num_output: 32
+    pad: 3
+    kernel_size: 7
+    stride: 2
+  }
+}
+layer {
+  name: "pool1"
+  type: "Pooling"
+  bottom: "conv1"
+  top: "pool1"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+layer {
+  name: "relu1"
+  type: "ReLU"
+  bottom: "pool1"
+  top: "pool1"
+}
+layer {
+  name: "norm1"
+  type: "BatchNorm"
+  bottom: "pool1"
+  top: "pool1"
+  batch_norm_param {
+    moving_average_fraction: 0.899999976158
+  }
+}
+layer {
+  name: "scale1"
+  type: "Scale"
+  bottom: "pool1"
+  top: "pool1"
+  scale_param {
+    bias_term: true
+  }
+}
+layer {
+  name: "ip2"
+  type: "InnerProduct"
+  bottom: "pool1"
+  top: "ip2"
+  inner_product_param {
+    num_output: 10
+    weight_filler {
+      type: "xavier"
+    }
+  }
+}
+layer {
+  name: "loss"
+  type: "SoftmaxWithLoss"
+  bottom: "ip2"
+  bottom: "label"
+  top: "loss"
+}

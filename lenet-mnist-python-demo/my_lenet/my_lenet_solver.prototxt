@@ -1,0 +1,17 @@
+train_net: "my_lenet/my_lenet_train.prototxt"
+test_net: "my_lenet/my_lenet_test.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.00999999977648
+display: 1000
+max_iter: 10000
+lr_policy: "inv"
+gamma: 9.99999974738e-05
+power: 0.75
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 250
+snapshot_prefix: "my_lenet/my_lenet"
+solver_mode: GPU
+random_seed: 831486
+type: "SGD"

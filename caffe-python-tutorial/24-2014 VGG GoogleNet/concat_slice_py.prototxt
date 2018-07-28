@@ -1,0 +1,44 @@
+layer {
+  name: "data"
+  type: "DummyData"
+  top: "data"
+  dummy_data_param {
+    data_filler {
+      type: "gaussian"
+    }
+    num: 20
+    channels: 50
+    height: 64
+    width: 64
+  }
+}
+layer {
+  name: "a"
+  type: "Slice"
+  bottom: "data"
+  top: "a"
+  top: "b"
+  top: "c"
+  slice_param {
+    slice_point: 20
+    slice_point: 30
+    axis: 0
+  }
+}
+layer {
+  name: "d"
+  type: "Concat"
+  bottom: "a"
+  bottom: "b"
+  top: "d"
+  concat_param {
+    axis: 0
+  }
+}
+layer {
+  name: "e"
+  type: "Eltwise"
+  bottom: "a"
+  bottom: "c"
+  top: "e"
+}

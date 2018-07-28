@@ -25,6 +25,8 @@ def conv_pool_net():
     n.conv1 = L.Convolution(n.data,num_output=20,kernel_size=4,stride=3,pad=0)
     n.relu1 = L.ReLU(n.conv1,in_place=True)
     n.pool1 = L.Pooling(n.relu1,pool=P.Pooling.MAX,kernel_size=2,stride=2)
+    # 当变量名相同时,caffe会自动将之前的变量都按自定义的方式命名,只有最后一次使用时才保留自己定义的名
+
     for i in range(2):
     	n.conv1 = L.Convolution(n.pool1,num_output=10,kernel_size=4,stride=2,pad=3)
         n.relu1 = L.ReLU(n.conv1,in_place=True)
@@ -70,6 +72,7 @@ def gen_solver(solver_file, net_file, test_net_file=None):
 
 
 def print_net_shape(net):
+    # 查看每层的输出
     print "======data and diff output shape======"
     for layer_name, blob in net.blobs.iteritems():
         print layer_name + ' out \t' + str(blob.data.shape)
